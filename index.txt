@@ -1,0 +1,24 @@
+1:"$Sreact.fragment"
+3:I[4827,["757","static/chunks/757-0bf1d72026cda04f.js","982","static/chunks/982-827c56dc04089382.js","974","static/chunks/app/page-ff7c6881d6fbcbee.js"],"default"]
+4:I[9665,[],"MetadataBoundary"]
+6:I[9665,[],"OutletBoundary"]
+9:I[4911,[],"AsyncMetadataOutlet"]
+b:I[9665,[],"ViewportBoundary"]
+d:I[6614,[],""]
+:HL["/_next/static/css/90ad2c133623b8da.css","style"]
+0:{"P":null,"b":"EW2C57XYxh73dSfbaQGFm","p":"","c":["",""],"i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/90ad2c133623b8da.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],"$L2"]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","$L3",null,{}],["$","$L4",null,{"children":"$L5"}],null,["$","$L6",null,{"children":["$L7","$L8",["$","$L9",null,{"promise":"$@a"}]]}]]}],{},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","79mOIPFsDD7lYCuA-Ksxw",{"children":[["$","$Lb",null,{"children":"$Lc"}],null]}],null]}],false]],"m":"$undefined","G":["$d","$undefined"],"s":false,"S":true}
+e:I[9243,["757","static/chunks/757-0bf1d72026cda04f.js","153","static/chunks/153-22761338ca7d0970.js","177","static/chunks/app/layout-c893f6d6846be4aa.js"],""]
+f:I[7784,["757","static/chunks/757-0bf1d72026cda04f.js","153","static/chunks/153-22761338ca7d0970.js","177","static/chunks/app/layout-c893f6d6846be4aa.js"],"default"]
+10:I[8309,["757","static/chunks/757-0bf1d72026cda04f.js","153","static/chunks/153-22761338ca7d0970.js","177","static/chunks/app/layout-c893f6d6846be4aa.js"],"default"]
+11:I[5619,["757","static/chunks/757-0bf1d72026cda04f.js","153","static/chunks/153-22761338ca7d0970.js","177","static/chunks/app/layout-c893f6d6846be4aa.js"],"lightTheme"]
+12:I[7555,[],""]
+13:I[1295,[],""]
+14:"$Sreact.suspense"
+15:I[4911,[],"AsyncMetadata"]
+2:["$","html",null,{"lang":"en","className":"__variable_a619c8","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"shortcut icon","href":"/logo-premio-icon.ico"}],["$","$Le",null,{"id":"hs-script-loader","src":"//js.hs-scripts.com/2654016.js","strategy":"afterInteractive"}]]}],["$","body",null,{"children":["$","$Lf",null,{"options":{"enableCssLayer":true},"children":["$","$L10",null,{"theme":"$11","children":["$","$L12",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L13",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}]
+5:["$","$14",null,{"fallback":null,"children":["$","$L15",null,{"promise":"$@16"}]}]
+8:null
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+7:null
+16:{"metadata":[["$","title","0",{"children":"Speed Dating for Edge Solutions"}],["$","meta","1",{"name":"description","content":"To find out which contestant is the best match for you, simply enter your information below."}],["$","link","2",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"252x256"}]],"error":null,"digest":"$undefined"}
+a:{"metadata":"$16:metadata","error":null,"digest":"$undefined"}
