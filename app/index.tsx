@@ -15,7 +15,6 @@ import {
 } from "@mui/material";
 import { z } from "zod";
 import { questions } from "./questions";
-import ReCAPTCHA from "react-google-recaptcha";
 
 const QuizFormSchema = z.object({
     firstName: z.string().min(1, "First name is required"),
@@ -54,10 +53,6 @@ const QuizPage = () => {
     const [currentQuestion, setCurrentQuestion] = useState(-1);
     const [answers, setAnswers] = useState<string[]>(Array(5).fill(""));
 
-
-    const recaptchaRef = useRef<ReCAPTCHA>(null);
-    const [isValidRecaptcha, setIsValidRecaptcha] = useState<boolean>(false);
-
     const [error, setError] = useState<string | null>(null);
 
     const methods = useForm<QuizFormSchemaType>({
@@ -81,15 +76,13 @@ const QuizPage = () => {
 
     const sendToHubspot = async (data: QuizFormSchemaType, result: string) => {
 
-        const formId = result === "JCO" ? "415f0b04-8b89-4e74-9304-73840d122728" : result === "RCO" ? "415f0b04-8b89-4e74-9304-73840d122728" : "415f0b04-8b89-4e74-9304-73840d122728";
+        const formId = result === "JCO" ? "415f0b04-8b89-4e74-9304-73840d122728" : result === "RCO" ? "b5d4df2c-8b2c-4930-81cd-0c65e1772e77" : "b6ccd073-3b45-4ff9-8a14-5e5b41340604";
 
         const hubspotUTK = getHubspotUTK();
         const answer = data.answers.map((answer, index) => ({
             question: questions[index].question,
             answer: questions[index].options[parseInt(answer)].text,
         })).reduce((acc, curr) => `${acc}\n-${curr.question} \n    ${curr.answer}`, "Result: " + result + "\n");
-
-        console.log('answer', answer);
 
         try {
             const sendData = await fetch(`https://api.hsforms.com/submissions/v3/integration/submit/2654016/${formId}`, {
@@ -122,8 +115,6 @@ const QuizPage = () => {
             }
 
             if (typeof window !== "undefined" && window?.self !== window?.top) {
-                console.log('Sending message to parent window');
-
                 window.parent.postMessage({
                     type: "hsQuizFormCallback",
                     formId: formId,
@@ -137,7 +128,7 @@ const QuizPage = () => {
                     }
                 }, "https://premioinc.com");
             }
-            //setSolution(result);
+            setSolution(result);
         } catch (error) {
             console.error("Error sending data to HubSpot:", error);
             setError("Failed to submit the form. Please try again later.");
@@ -225,8 +216,11 @@ const QuizPage = () => {
                             </Box>
                         ) : (
                             <Box mb={3}>
-                                <Typography variant="h6">
+                                <Typography variant="h6" gutterBottom>
                                     {questions[currentQuestion].question}
+                                </Typography>
+                                <Typography variant="body2" color="textSecondary" gutterBottom>
+                                    {questions[currentQuestion].description}
                                 </Typography>
                                 <RadioGroup
                                     value={answers[currentQuestion]}
