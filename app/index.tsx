@@ -128,7 +128,7 @@ const QuizPage = () => {
                     }
                 }, "https://premioinc.com");
             }
-            setSolution(result);
+            //setSolution(result);
         } catch (error) {
             console.error("Error sending data to HubSpot:", error);
             setError("Failed to submit the form. Please try again later.");
@@ -173,7 +173,7 @@ const QuizPage = () => {
     return (
         <Container maxWidth="sm" sx={{ mt: 4 }}>
             <Typography variant="h4" gutterBottom className="mb-3">
-                It&apos;s time to reveal your perfect match!
+                5 Questions and less than 1 minute to reveal your perfect match!
             </Typography>
             <Typography className="mb-3 border-b border-gray-300 pb-3">
                 To find out which contestant is the best match for you, simply enter your information below.
