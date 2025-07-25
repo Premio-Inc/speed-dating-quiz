@@ -1,12 +1,12 @@
 1:"$Sreact.fragment"
-3:I[4827,["757","static/chunks/757-0bf1d72026cda04f.js","982","static/chunks/982-827c56dc04089382.js","974","static/chunks/app/page-582d84c140d59f36.js"],"default"]
+3:I[4827,["757","static/chunks/757-0bf1d72026cda04f.js","982","static/chunks/982-827c56dc04089382.js","974","static/chunks/app/page-31fecd68c48151b6.js"],"default"]
 4:I[9665,[],"MetadataBoundary"]
 6:I[9665,[],"OutletBoundary"]
 9:I[4911,[],"AsyncMetadataOutlet"]
 b:I[9665,[],"ViewportBoundary"]
 d:I[6614,[],""]
 :HL["/speed-dating-quiz/_next/static/css/cdd90b6d9271ae9f.css","style"]
-0:{"P":null,"b":"7Xu8c2baKiiWaX0tT8nZU","p":"/speed-dating-quiz","c":["",""],"i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/speed-dating-quiz/_next/static/css/cdd90b6d9271ae9f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],"$L2"]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","$L3",null,{}],["$","$L4",null,{"children":"$L5"}],null,["$","$L6",null,{"children":["$L7","$L8",["$","$L9",null,{"promise":"$@a"}]]}]]}],{},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","BwqUICzY-Ok77lbl-f2CN",{"children":[["$","$Lb",null,{"children":"$Lc"}],null]}],null]}],false]],"m":"$undefined","G":["$d","$undefined"],"s":false,"S":true}
+0:{"P":null,"b":"2OZzg1feqsSVAtWhhNYPq","p":"/speed-dating-quiz","c":["",""],"i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/speed-dating-quiz/_next/static/css/cdd90b6d9271ae9f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],"$L2"]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","$L3",null,{}],["$","$L4",null,{"children":"$L5"}],null,["$","$L6",null,{"children":["$L7","$L8",["$","$L9",null,{"promise":"$@a"}]]}]]}],{},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","VsQ1aEd2AuZksBk5rl47b",{"children":[["$","$Lb",null,{"children":"$Lc"}],null]}],null]}],false]],"m":"$undefined","G":["$d","$undefined"],"s":false,"S":true}
 e:I[7784,["757","static/chunks/757-0bf1d72026cda04f.js","519","static/chunks/519-36a356a41ac6022f.js","177","static/chunks/app/layout-9730b3cfa03fd11c.js"],"default"]
 f:I[8309,["757","static/chunks/757-0bf1d72026cda04f.js","519","static/chunks/519-36a356a41ac6022f.js","177","static/chunks/app/layout-9730b3cfa03fd11c.js"],"default"]
 10:I[5619,["757","static/chunks/757-0bf1d72026cda04f.js","519","static/chunks/519-36a356a41ac6022f.js","177","static/chunks/app/layout-9730b3cfa03fd11c.js"],"lightTheme"]
